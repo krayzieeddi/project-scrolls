@@ -1,0 +1,92 @@
+/* style.css*/
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body {
+    background-color: tan;
+}
+/*  wrapper section ////////////////////////// */
+#wrapper {
+    height: 1500px;
+    width: 2100px;
+    /* margin:100px auto 30px auto; */
+    background-color: rgb(245, 245, 248);
+    border: 1px black solid;
+    border-radius: 10px;
+    position: relative;
+}
+/*  header section ////////////////////////// */
+header {
+    height: 10%;
+    width: 80%;
+    position: absolute;
+    right: 0;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/*  main section ////////////////////////// */
+main{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    background-color: aqua;
+    width: 80%;
+    height: 85%;
+}
+#weapons {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+#skills {
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.abilities {
+    height: 100%;
+    width: 34%;
+    background-color: yellow;
+    border: 1px black solid;
+}
+/*  aside section ////////////////////////// */
+aside{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    background-color: blue;
+}
+/*  footer section ////////////////////////// */
+footer {
+    position: absolute;
+    bottom: 0;
+    right:0;
+    width: 80%;
+    height: 5%;
+    background-color: green;
+}
+/* other section */
+p {
+    font-size: 50px;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    font-size: 30px;
+    display:inline;
+    margin-left: 100px;
+}
